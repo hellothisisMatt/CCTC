@@ -5,7 +5,7 @@ import java.util.Map;
  * Created by Matt on 2017-09-16.
  */
 
-public class main {
+public class uniqueCharsInString {
     public static void main(String[] args){
         String testString = "GGAAGGACCCTTWEEEEAFFFCCAA";
         Map frequencyMap = findCharFrequencies(testString);
