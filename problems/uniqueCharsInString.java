@@ -2,7 +2,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Matt on 2017-09-16.
+ * Solution to solving unique characters in a string problem using a hash map.
+ * - Matthew Gopez
  */
 
 public class uniqueCharsInString {
@@ -13,7 +14,7 @@ public class uniqueCharsInString {
         printUniqueStrings(frequencyMap);
     }
 
-    public static Map<Character, Integer> findCharFrequencies(String s){
+    private static Map<Character, Integer> findCharFrequencies(String s){
         Map<Character, Integer> freqMap = null;
         if(s != null && s.length() > 0){
             freqMap = new HashMap<Character, Integer>();
